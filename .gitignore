@@ -1,0 +1,77 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Python / FastAPI backend
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+backend/.venv/
+backend/venv/
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Backend runtime data
+backend/app/uploads/*
+!backend/app/uploads/.gitkeep
+backend/app/static/generated/*
+!backend/app/static/generated/.gitkeep
+
+# Alembic runtime cache
+backend/alembic/**/__pycache__/
+
+# Node / frontend dependencies
+node_modules/
+fontend/node_modules/
+
+# uni-app build outputs
+fontend/unpackage/
+fontend/dist/
+fontend/.hbuilderx/
+fontend/.vite/
+
+# Frontend local env
+fontend/.env
+fontend/.env.*
+!fontend/.env.example
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak

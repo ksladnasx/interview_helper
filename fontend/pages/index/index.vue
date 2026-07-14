@@ -9,9 +9,7 @@
 				<view class="eyebrow">{{ greetingText }}</view>
 				<view class="headline">{{ headlineText }}</view>
 			</view>
-			<view class="icon-button">
-				<uni-icons type="sound" size="20" color="#5b6478" />
-			</view>
+		
 		</view>
 
 		<view class="summary-panel">
